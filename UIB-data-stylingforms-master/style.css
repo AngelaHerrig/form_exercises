@@ -1,0 +1,98 @@
+*{box-sizing: border-box;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+
+section{
+    width: 700px;
+    height: 900px;
+    background: url(./images/background.jpg) center top no-repeat;
+    background-size: contain;
+    background-color: black;
+    margin: 0 auto;
+    border: white solid 1px;
+}
+
+#image{
+    text-align: center;
+    padding: 10px;
+}
+
+
+h1{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+#info{
+    border: black 7px solid;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#info, #reservation{
+    
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+
+h2{
+    font-weight: 200;
+    padding-top: 10px;
+}
+#reservation h2,p {
+    text-align: center;
+}
+
+form input{
+    display: block;
+}
+
+.box{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 300px;
+    margin: 5px;
+}
+
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input{
+    width: 300px;
+    background-color: white;
+}
+
+input[type=text],
+input[type=email],
+input[type=datetime]{
+    background-color: white;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#reservation{
+    position: relative;
+    height: 450px;
+}
+form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input[type=submit]{
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 10px;
+}

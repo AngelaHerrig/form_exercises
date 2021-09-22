@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+legend{
+    color: blue;
+    font-weight: bold;
+}
+
+section{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+label, textarea{
+    display: inline-block;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=date],
+textarea,
+select{
+    width: 100%
+}
+
+.checkbox{
+    display: block;
+}
+
+.head{
+    display: block;
+    font-weight: bold;
+}
